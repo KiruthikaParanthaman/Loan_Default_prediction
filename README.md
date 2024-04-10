@@ -17,6 +17,7 @@ Aim of the project is to predict whether bank customer will default his/her loan
 * Standadization using **standardscaler** and normalization using **powertransformer** was undertaken.Either of them was used in machine learning algorithm based on the resultant accuracy
 * Dataset was trained using Logistic Regression, Decision Tree classifier, AdaBoost, XGBoost, Gradient Classifier,knncluster, Random Forest and Balanced Bagging Classifier. XGBClassifier gave the highest accuracy 
   of 0.71 with validation data and with test accuracy of 0.65
+* To view the full detailed approach [click here](https://github.com/KiruthikaParanthaman/Loan_Default_prediction/blob/main/Capstone%20Loan%20Default%20Prediction.ipynb)
 
 **Summary**:
 
