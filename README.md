@@ -17,3 +17,12 @@ Aim of the project is to predict whether bank customer will default his/her loan
 * Standadization using **standardscaler** and normalization using **powertransformer** was undertaken.Either of them was used in machine learning algorithm based on the resultant accuracy
 * Dataset was trained using Logistic Regression, Decision Tree classifier, AdaBoost, XGBoost, Gradient Classifier,knncluster, Random Forest and Balanced Bagging Classifier. XGBClassifier gave the highest accuracy 
   of 0.71 with validation data and with test accuracy of 0.65
+
+**Summary**:
+
+ * The Dataset didnt represent the real world scenario. For Example: In many cases loan balance outstanding was 20 times more than loan amount. In real world scenario if customer defaults more than 3 Emi they     
+   will be declared defaulter.Loans provided to customer with score as less as 300 and customer with no employment status but with income level of 150000.
+ * No independant variables had positive correlation of more than 0.2 and hence no significant relations could be indentified by advanced machine learning models like adaboost, gradientboost even after some     
+   feature creation
+ * And Finally data is the king. We need more features and dataset reflecting real world scenario to further improve the accuracy of our model.
+
